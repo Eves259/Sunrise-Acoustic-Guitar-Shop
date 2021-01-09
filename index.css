@@ -1,0 +1,162 @@
+body {
+    background-color: #5c67c7;
+    font-family: font;
+    font-weight: bolder;
+}
+
+.header {
+    background-color: #3734fc;
+    border: thick solid #ff7d03;
+    font-family: font;
+}
+
+#h-one {
+    font-size:5rem;
+    text-align: center;
+    color: #ff7d03;
+}
+
+.navigation {
+    text-align: center;
+    color: orange;
+    font-size: 4rem;
+    font-family: font;
+}
+
+.navigation > a {
+    text-decoration: underline solid #34b4fc;
+    border: solid thin #ff7d03;
+    color: #ff7d03
+}
+
+.navigation > a:visited {
+    color: #ff7d03;
+    text-decoration: underline solid #34b4fc;
+}
+
+.navigation > a:hover {
+    color: #34b4fc;
+    text-decoration: underline solid #ff7d03;
+}
+
+.navigation #home {
+    
+}
+
+.navigation #shop {
+    
+}
+
+#a-1 {
+    text-decoration: underline solid #ff7d03;
+    color: #34b4fc;
+}
+
+#a-1:hover {
+    text-decoration: underline solid #34b4fc;
+    color: #ff7d03;
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-columns: 28rem 60rem 28rem;
+    grid-template-rows: 2rem;
+    font-family: font;
+}
+
+.fill-1 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.item-1 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.fill-2 {
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+#img-one {
+    width: 60rem;
+    height: 35rem;
+    border: thick solid #34b4fc;
+}
+
+.footer {
+    background-color: #3734fc;
+    border: thick solid #ff7d03;
+    font-family: font;
+}
+
+#p-one {
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: underline solid #34b4fc;
+    color: #ff7d03;
+}
+
+#p-1 {
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: underline solid #34b4fc;
+    color: #ff7d03;
+}
+
+#p-2 {
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: underline solid #34b4fc;
+    color: #ff7d03;
+}
+
+#p-two {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 3rem;
+}
+
+#p-three {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+#p-four {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+#p-five {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+#p-six {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+#p-seven {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+#p-eight {
+    text-align: center;
+    color: #ff7d03;
+    font-size: 1.5rem;
+}
+
+@font-face{
+    font-family: font;
+    src: url(./fonts/Walkway\ SemiBold.ttf);
+}
+
+
